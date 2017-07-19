@@ -63,6 +63,12 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 	}
 }
 
+function remove_storefront_sidebar() {
+    if ( is_product() ) {
+    remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
+    }
+}
+add_action( 'get_header', 'remove_storefront_sidebar' );
 /**
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
