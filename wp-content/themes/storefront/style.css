@@ -202,8 +202,32 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-size: 30px;
     line-height: 1.214;
     letter-spacing: -1px;
-    color: #067ed4 !important;
+    color: #067ed4;
 }
+
+.woocommerce-cart h1,
+.woocommerce-checkout h1,
+.woocommerce-account h1{
+        color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background: #067ed4;
+    font-weight: 400;
+    text-align: center;
+}
+
+.woocommerce-cart .woocommerce,
+.woocommerce-checkout .woocommerce,
+.woocommerce-account .woocommerce{
+        background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 1.5%;
+}
+
 .beta, h2 {
     font-size: 2em;
     line-height: 1.214;
@@ -221,9 +245,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .alpha, .beta, .delta, .gamma {
     display: block;
 }
-blockquote+h2, blockquote+h3, blockquote+h4, blockquote+header h2, form+h2, form+h3, form+h4, form+header h2, ol+h2, ol+h3, ol+h4, ol+header h2, p+h2, p+h3, p+h4, p+header h2, table+h2, table+h3, table+h4, table+header h2, ul+h2, ul+h3, ul+h4, ul+header h2 {
-    margin-top: 2.2906835em;
-}
+
 hr {
     background-color: #ccc;
     border: 0;
@@ -732,9 +754,9 @@ button, input, select, textarea {
 .added_to_cart, .button, button, input[type=button], input[type=reset], input[type=submit] {
     border: 0;
     background: 0 0;
-    background-color: #43454b;
-    border-color: #43454b;
-    color: #fff;
+    background-color:#067ed4 !important;
+    border-color: #067ed4 !important;
+    color: #fff !important;
     cursor: pointer;
     padding: .6180469716em 1.41575em;
     text-decoration: none;
@@ -1557,7 +1579,7 @@ button.menu-toggle:after {
     width: 200px;
 }
 ul.menu li.current-menu-item>a {
-    color: #43454b;
+    color: #fff;
 }
 .storefront-primary-navigation {
     clear: both;
@@ -1958,4 +1980,14 @@ padding:  1%;
     
   width:  100%;
     
+}
+
+.select2-container--default .select2-selection--single{
+    border: none;
+    height: 50px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered{
+    background-color: #f2f2f2;
+    padding: .6180469716em;
 }
