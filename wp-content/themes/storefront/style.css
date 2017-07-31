@@ -1603,7 +1603,7 @@ ul.menu li.current-menu-item>a {
     overflow: visible;
 }
 .main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
-    padding: 1.618em 1em;
+    padding: 1.618em 0.5em;
 }
 .main-navigation ul.menu>li:first-child, .main-navigation ul.nav-menu>li:first-child {
     margin-left: -1em;
