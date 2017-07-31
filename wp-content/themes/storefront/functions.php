@@ -32,6 +32,25 @@ require 'inc/storefront-functions.php';
 require 'inc/storefront-template-hooks.php';
 require 'inc/storefront-template-functions.php';
 
+add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_button_text' );    // 2.1 +
+ 
+function woo_archive_custom_cart_button_text() {
+ 
+        return __( 'Book this Item', 'woocommerce' );
+ 
+}
+
+
+
+add_filter( 'add_to_cart_text', 'woo_custom_single_add_to_cart_text' );                // < 2.1
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_single_add_to_cart_text' );  // 2.1 +
+  
+function woo_custom_single_add_to_cart_text() {
+  
+    return __( 'Book this Item', 'woocommerce' );
+  
+}
+
 if ( class_exists( 'Jetpack' ) ) {
 	$storefront->jetpack = require 'inc/jetpack/class-storefront-jetpack.php';
 }
