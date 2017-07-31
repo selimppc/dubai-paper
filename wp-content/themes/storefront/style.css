@@ -1593,6 +1593,7 @@ button.menu-toggle:after {
 }
 .main-navigation ul ul li, .secondary-navigation ul ul li {
     display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
 }
 .main-navigation ul ul li a, .secondary-navigation ul ul li a {
     width: 200px;
@@ -1625,6 +1626,7 @@ ul.menu li.current-menu-item>a {
 .main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
     padding: 14px !important;
     color: #fff;
+    font-size: 14px;
 }
 
 ul.site-header-cart >li>a.cart-contents:hover {
@@ -1655,6 +1657,7 @@ ul.site-header-cart >li>a.cart-contents:hover {
 }
 .main-navigation ul.menu ul, .main-navigation ul.nav-menu ul {
     margin-left: 0;
+    background-color: #fff !important;
 }
 .main-navigation ul.menu ul li a, .main-navigation ul.nav-menu ul li a {
     padding: .875em 1.41575em;
