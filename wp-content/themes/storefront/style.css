@@ -752,6 +752,11 @@ table tbody h2 a {
     width: 64px;
     margin-bottom: 1em;
 }
+.woocommerce-notice.woocommerce-notice--success{
+    color: #30a5ff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
 form {
     margin-bottom: 1.618em;
 }
