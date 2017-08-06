@@ -125,10 +125,16 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 	function storefront_credit() {
 		?>
 		<div class="site-info">
-			<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+			<div class="copyright pull-left">
+				<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+			</div>
 			<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
-			<br /> <?php printf( esc_attr__( '%1$s designed by %2$s.', 'storefront' ), 'Designed & ', '<a href="https://www.halfway.website/" title="The Best eCommerce Platform" rel="author">HalfWay</a>' ); ?>
+			
+			<div class="developer pull-right">
+				<?php printf( esc_attr__( '%1$s developed by %2$s.', 'storefront' ), 'Designed & ', '<a href="https://www.halfway.website/" title="The Best eCommerce Platform" rel="author">HalfWay</a>' ); ?>
+			</div>
 			<?php } ?>
+			
 		</div><!-- .site-info -->
 		<?php
 	}

@@ -177,7 +177,7 @@ body {
     word-wrap: break-word;
 }
 body, button, input, textarea {
-    color: #43454b;
+    color: #000 !important;
     font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 1.618;
     -moz-osx-font-smoothing: grayscale;
@@ -366,6 +366,7 @@ body {
 }
 .site {
     overflow-x: hidden;
+    background-color: rgba(97, 97, 97, 0.2);
 }
 .header-widget-region, .site-content {
     -webkit-tap-highlight-color: transparent;
@@ -474,8 +475,8 @@ body {
     opacity: 1;
 }
 .site-footer {
-    background-color: rgba(109, 109, 109, 0.1) !important;
-    color: #76787e;
+    background-color: rgba(109, 109, 109, 0.2) !important;
+    color: #000 !important;
     padding: 0;
 }
 .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
@@ -485,7 +486,7 @@ body {
     color: #2c2d33;
 }
 .site-info {
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
 }
 .alignleft {
     display: inline;
@@ -765,6 +766,7 @@ table tbody h2 a {
 
 .woocommerce-page .widget-area .widget ul.product_list_widget{
     position: relative;
+    background-color: #fff;
 }
 
 .woocommerce-page .widget-area .widget ul.product_list_widget li img{
@@ -783,12 +785,11 @@ table tbody h2 a {
     display: inherit;*/
 }
 
-.woocommerce-page .widget-area .widget.widget_product_tag_cloud a{
-    border-left: 1px solid rgba(97, 97, 97, 0.15);
-    border-right: 1px solid rgba(97, 97, 97, 0.15);
+.woocommerce-page .widget-area .widget.widget_product_tag_cloud a{    
     border-top: 1px solid rgba(97, 97, 97, 0.15);
     border-bottom: 0;
     font-size: .875em !important;
+    background-color: #fff;
 }
 
 .woocommerce-page .widget-area .widget.widget_product_tag_cloud a:last-child{
@@ -1173,7 +1174,7 @@ button.menu-toggle:after {
     transform: rotateY(180deg);
 }
 .widget {
-    margin: 0 0 3.706325903em;
+    margin: 0 0 30px;
 }
 .widget select {
     max-width: 100%}
@@ -1888,7 +1889,7 @@ body {
 }
 
 .widget_product_categories ul{
-    border:1px solid rgba(97, 97, 97, 0.15);
+    background-color: #fff;
 }
 
 .widget .widget-title,  .widget .widgettitle  {
@@ -2000,7 +2001,7 @@ padding:  1%;
 .page .widget-area .widget a {
         width: 100%;
     display: inline-block;
-    color: #616161;
+    color: #000;
     padding: 8px 10px;
     text-decoration: none;
     border-bottom: 1px solid rgba(97, 97, 97, 0.15);
