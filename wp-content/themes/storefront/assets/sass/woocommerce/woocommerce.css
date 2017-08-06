@@ -1280,14 +1280,14 @@ p.stars.selected a:not(.active):before {
     color: #067ed4;
 }
 .woocommerce-error, .woocommerce-info, .woocommerce-message, .woocommerce-noreviews, p.no-comments {
-    padding: 10px;
-    margin-bottom: 30px;
-    background-color: #067ed4;
-    margin-left: 0;
-    border-radius: 2px;
-    color: #fff;
-    clear: both;
-    border-left: .6180469716em solid rgba(0, 0, 0, .15);
+    color: #30a5ff;
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0px 10px 5px 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #e5e5e5;
 }
 .woocommerce-error:after, .woocommerce-error:before, .woocommerce-info:after, .woocommerce-info:before, .woocommerce-message:after, .woocommerce-message:before, .woocommerce-noreviews:after, .woocommerce-noreviews:before, p.no-comments:after, p.no-comments:before {
     content: "";
@@ -1297,7 +1297,7 @@ p.stars.selected a:not(.active):before {
     clear: both;
 }
 .woocommerce-error a, .woocommerce-info a, .woocommerce-message a, .woocommerce-noreviews a, p.no-comments a {
-    color: #fff;
+    color: #616161;
 }
 .woocommerce-error a:hover, .woocommerce-info a:hover, .woocommerce-message a:hover, .woocommerce-noreviews a:hover, p.no-comments a:hover {
     color: #fff;
@@ -1317,7 +1317,6 @@ p.stars.selected a:not(.active):before {
     border-width: 0;
     border-left-width: 1px;
     border-left-style: solid;
-    border-left-color: rgba(255, 255, 255, .25)!important;
     border-radius: 0;
 }
 .woocommerce-error .button:hover, .woocommerce-info .button:hover, .woocommerce-message .button:hover, .woocommerce-noreviews .button:hover, p.no-comments .button:hover {
@@ -1335,7 +1334,7 @@ p.stars.selected a:not(.active):before {
     list-style: none;
 }
 .woocommerce-info, .woocommerce-noreviews, p.no-comments {
-    background-color: #3d9cd2;
+   
 }
 .woocommerce-error {
     background-color: #e2401c;

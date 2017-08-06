@@ -41,6 +41,13 @@ function woo_archive_custom_cart_button_text() {
 }
 
 
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+ 
+function custom_override_checkout_fields( $fields ) {
+    unset($fields['billing']['billing_state']);
+    return $fields;
+}
+
 
 add_filter( 'add_to_cart_text', 'woo_custom_single_add_to_cart_text' );                // < 2.1
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_single_add_to_cart_text' );  // 2.1 +
@@ -50,6 +57,9 @@ function woo_custom_single_add_to_cart_text() {
     return __( 'Book this Item', 'woocommerce' );
   
 }
+
+
+
 
 if ( class_exists( 'Jetpack' ) ) {
 	$storefront->jetpack = require 'inc/jetpack/class-storefront-jetpack.php';
