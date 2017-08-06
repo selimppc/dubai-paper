@@ -761,6 +761,10 @@ button, input, select, textarea {
     vertical-align: baseline;
 }
 
+.col2-set .form-row-last.validate-email,
+.col2-set .form-row-first.validate-phone{
+    width: 100%;
+}
 .added_to_cart, .button, button, input[type=button], input[type=reset], input[type=submit] {
     border: 0;
     background: 0 0;

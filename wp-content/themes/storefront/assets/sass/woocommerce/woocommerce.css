@@ -1300,7 +1300,7 @@ p.stars.selected a:not(.active):before {
     color: #616161;
 }
 .woocommerce-error a:hover, .woocommerce-info a:hover, .woocommerce-message a:hover, .woocommerce-noreviews a:hover, p.no-comments a:hover {
-    color: #fff;
+  
     opacity: .7;
 }
 .woocommerce-error a.button:hover, .woocommerce-info a.button:hover, .woocommerce-message a.button:hover, .woocommerce-noreviews a.button:hover, p.no-comments a.button:hover {
