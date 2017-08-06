@@ -763,6 +763,16 @@ table tbody h2 a {
     padding: 0;
 }
 
+.woocommerce-page .widget-area .widget ul.product_list_widget{
+    position: relative;
+}
+
+.woocommerce-page .widget-area .widget ul.product_list_widget li img{
+    max-width: 25px;
+    position: absolute;
+    right: 10px;
+}
+
 .woocommerce-page .widget-area .widget ul.product_list_widget li{
     border-bottom: 1px solid rgba(0, 0, 0, .05);
     padding: 8px 10px;
@@ -778,6 +788,7 @@ table tbody h2 a {
     border-right: 1px solid rgba(97, 97, 97, 0.15);
     border-top: 1px solid rgba(97, 97, 97, 0.15);
     border-bottom: 0;
+    font-size: .875em !important;
 }
 
 .woocommerce-page .widget-area .widget.widget_product_tag_cloud a:last-child{
