@@ -757,6 +757,33 @@ table tbody h2 a {
     font-size: 20px;
     margin-bottom: 0;
 }
+
+.woocommerce-page .widget-area .widget ul.product_list_widget a{
+    border:none;
+    padding: 0;
+}
+
+.woocommerce-page .widget-area .widget ul.product_list_widget li{
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    padding: 8px 10px;
+}
+
+.woocommerce-page .widget-area .widget ul.product_list_widget li .woocommerce-Price-amount{
+/*    margin-top: -25px;
+    display: inherit;*/
+}
+
+.woocommerce-page .widget-area .widget.widget_product_tag_cloud a{
+    border-left: 1px solid rgba(97, 97, 97, 0.15);
+    border-right: 1px solid rgba(97, 97, 97, 0.15);
+    border-top: 1px solid rgba(97, 97, 97, 0.15);
+    border-bottom: 0;
+}
+
+.woocommerce-page .widget-area .widget.widget_product_tag_cloud a:last-child{
+   border-bottom: 1px solid rgba(97, 97, 97, 0.15); 
+}
+
 form {
     margin-bottom: 1.618em;
 }
