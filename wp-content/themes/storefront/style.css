@@ -207,7 +207,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-size: 22px;
     line-height: 40px;
     padding: 0px 10px 5px 10px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid #e5e5e5;
@@ -423,10 +423,14 @@ body {
     margin-bottom: 0;
 }
 .home .site-content{    
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .site-content {
     outline: 0;
+}
+
+.n2-ss-align.n2-ss-slider-align-visible{
+    margin-bottom: 25px !important;
 }
 
 
@@ -486,7 +490,8 @@ body {
     color: #2c2d33;
 }
 .site-info {
-    padding: 20px 0 40px 0;
+    padding: 10px 0 30px 0;
+    font-size: 15px;
 }
 .alignleft {
     display: inline;
@@ -707,7 +712,7 @@ table tbody h2 a {
     transform: scale(1.3);
 }
 .hentry {
-    margin: 0 0 4.235801032em;
+    margin: 0;
 }
 .hentry .wp-post-image {
     margin-bottom: 1.618em;
@@ -816,7 +821,7 @@ button, input, select, textarea {
     border: 1px solid #30a5ff !important;
     color: #30a5ff !important;
     cursor: pointer;
-    padding: .6180469716em 1.41575em;
+    padding: 2px 25px;
     text-decoration: none;
     font-weight: 400;
     text-shadow: none;
@@ -868,7 +873,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
 }
 .input-text, input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
-    padding: .6180469716em;
+    padding: 5px;
     background-color: #f2f2f2;
     color: #43454b;
     outline: 0;
@@ -1174,7 +1179,7 @@ button.menu-toggle:after {
     transform: rotateY(180deg);
 }
 .widget {
-    margin: 0 0 30px;
+    margin: 0 0 25px;
 }
 .widget select {
     max-width: 100%}
@@ -1934,16 +1939,16 @@ font-weight:  400;
     font-size: 22px;
     line-height: 40px;
     padding: 0px 10px 5px 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     font-weight: 600;
-    border-bottom: 1px solid #e5e5e5;
     text-align: center;
 }
 
 .page .page{
     background: #fff;
     padding: 3%;
+    min-height: 300px;
 }
 
 .site-main .columns-3 ul.products li.product {

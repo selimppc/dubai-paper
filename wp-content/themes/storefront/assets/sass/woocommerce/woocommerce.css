@@ -222,13 +222,13 @@ ul.products li.product.product-category img {
     margin-bottom: 1.618em;
 }
 ul.products li.product .button {
-    background: #fff !important;
+       background: #fff !important;
     color: #0a87bc !important;
-    width: 100%;
+    width: 90%;
     margin-bottom: .236em;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #0a87bc;
-    padding: 3px;
+    padding: 0px;
 }
 .price del {
     opacity: .5;
@@ -252,7 +252,7 @@ ul.products li.product .button {
     clear: both;
 }
 .single-product div.product .images, .single-product div.product .summary, .single-product div.product .woocommerce-product-gallery {
-    margin-bottom: 2.617924em;
+    margin-bottom: 25px;
     margin-top: 0;
 }
 .single-product div.product .woocommerce-product-gallery {
@@ -273,7 +273,7 @@ ul.products li.product .button {
     text-align: center;
 }
 .single-product div.product .woocommerce-product-gallery img {
-    margin: 0;
+    margin: 0 auto;
 }
 .single-product div.product .woocommerce-product-gallery .flex-viewport {
     margin-bottom: 15px;
@@ -366,7 +366,7 @@ ul.products li.product .button {
 }
 .single-product div.product form.cart {
     margin-bottom: 1.618em;
-    padding: 1em 0;
+    padding: 0;
 }
 .single-product div.product form.cart:after, .single-product div.product form.cart:before {
     content: "";
@@ -381,7 +381,11 @@ ul.products li.product .button {
 }
 .single-product div.product p.price {
     font-size: 1.41575em;
-    margin: 0.5em 0;
+    margin:5px 0;
+}
+.woocommerce-product-details__short-description{
+    color: #616161;
+    font-size: 14px;
 }
 .single-product div.product table.variations {
     margin: 0;
@@ -1389,11 +1393,10 @@ dl.variation dd {
     display: none;
 }
 .woocommerce-breadcrumb {
-    padding: 1.41575em 99em 1.41575em;
+    padding: 0.7em 99em 0.7em;
     margin-left: -99em;
     margin-right: -99em;
     margin-bottom: 0;
-    margin-top:  9px;
     margin-bottom:  10px;
     background-color:  #fff;
 }
@@ -1690,7 +1693,7 @@ section.up-sells.upsells.products{
     margin-bottom: 1.618em;
 }
 .storefront-sorting {
-        margin-bottom:  30px;
+        margin-bottom:  25px;
     
     background:  #fff;
     
